@@ -62,9 +62,9 @@ body {
     border-color: #3c8a3f;
     color: #e2e2e2;
 }
-@media (min-width: 320px) {
-  ..item .carousel-caption {
-      top: 2%;
+@media screen and (max-width: 500px) {
+  .item .carousel-caption {
+      top: 18%;
   }
 }
 footer {

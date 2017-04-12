@@ -26,12 +26,52 @@
                 <img src="./vendor/img/logo/Swap-it.png" width="40px" height="40px" alt="SnapIt Logo">
               </a>
               <ul class="nav navbar-nav navbar-right b-reg">
-                <li><a href="#">Login</a></li>
-                <li><a href="#">Sign up</a></li>
+                <li><a href="#" data-toggle="modal" data-target="#modalLogin">Login</a></li>
+                <li><a href="#" data-toggle="modal" data-target="#modalRegister">Sign up</a></li>
               </ul>
             </div>
         </div>
     </nav>
+    <!-- Modal Login Page-->
+    <div class="modal fade" id="modalLogin" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="">Login Page</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="modalRegister" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="">Register</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- Full Page Image Background Carousel Header -->
     <header id="myCarousel" class="carousel slide">
          <!--Indicators -->
@@ -83,13 +123,6 @@
     <script src="vendor/jquery/jquery.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.js"></script>
     <script src="vendor/js/main.js"></script>
-    <!-- Script to Activate the Carousel -->
-    <script>
-        $('.carousel').carousel({
-            interval: 3000 //changes the speed
-        })
-    </script>
-
 </body>
 
 </html>
