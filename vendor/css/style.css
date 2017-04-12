@@ -1,7 +1,12 @@
-.b-logo > img{
+.navbar .navbar-brand > img{
     height: 100%;
     width: auto;
 }
-.b-logo{
-  padding: 0px 0px !important;
+.navbar .navbar-brand{
+  padding: 2px 2px !important;
+}
+.navbar .navbar-header .b-reg{
+  position: absolute;
+  right: 20px;
+  display: inline-flex;
 }

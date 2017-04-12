@@ -22,14 +22,14 @@
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-              <a class="navbar-brand b-logo" href="#">
+              <a class="navbar-brand" href="#">
                 <img src="./vendor/img/logo/Swap-it.png" width="40px" height="40px" alt="SnapIt Logo">
               </a>
+              <ul class="nav navbar-nav navbar-right b-reg">
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Sign up</a></li>
+              </ul>
             </div>
-            <ul class="nav navbar-nav navbar-right">
-              <li><a href="#">Login</a></li>
-              <li><a href="#">Sign up</a></li>
-            </ul>
         </div>
     </nav>
     <!-- Full Page Image Background Carousel Header -->
@@ -86,7 +86,7 @@
     <!-- Script to Activate the Carousel -->
     <script>
         $('.carousel').carousel({
-            interval: 4000 //changes the speed
+            interval: 3000 //changes the speed
         })
     </script>
 
