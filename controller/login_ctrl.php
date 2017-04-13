@@ -1,6 +1,5 @@
 <?php
 	require('../model/auth.php');
-
 	/*$email = $_POST['email'];
 	$username = $_POST['username'];
 	$password = $_POST['password'];*/

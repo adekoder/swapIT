@@ -1,10 +1,10 @@
 <?php
 	session_start();
 	//require('controller/item_upload.php');
-	//require('controller/search_item.php');
+	require('controller/search_item.php');
 	//require('controller/all_items.php');
 	//require('controller/delete_item.php');
-	require('controller/get_user_by_id.php');
+	//require('controller/get_user_by_id.php');
 	echo $_SESSION['user_id'];
 ?>
 <form method='POST' enctype="multipart/form-data">

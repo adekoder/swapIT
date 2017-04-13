@@ -140,20 +140,19 @@
 				return false;
 			}
 		}
-		public function select_specific($TABLENAME, $column_list = [] , $Where_clause = null, $all = true)
+		public function select_specific($TABLENAME, $column_list = [] , $where_clause = null, $all = true)
 		{
 			$columns = join(',',$column_list);
-			echo $where_clause;
-			if(!$where_clause == null)
+			//echo $where_clause;
+			if($where_clause == null)
 			{
 
 				$query = "select $columns from $TABLENAME ";
 			}
 			else
 			{
-				$query = "select $columns  from $TABLENAME  $where_clause";
+				$query = "select $columns  from $TABLENAME $where_clause";
 			}
-			//echo $query;
 			$result = $this->connection->query($query);
 			if ($result->num_rows > 0)
 			{
